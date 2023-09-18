@@ -1,0 +1,179 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url('Backgroung.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 250px;
+  text-align: center;
+  padding: 10px;
+}
+
+.logo {
+  width: 400px;
+  height: auto;
+}
+
+nav ul {
+  list-style-type: none;
+
+}
+
+nav li {
+  display: inline-grid;
+  margin-right: 40px;
+  background-color: rgba(203, 203, 203, 0.27);
+  border-radius: 20px;
+
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 29px;
+  font-family: 'Dancing Script', cursive;
+}
+
+nav a:hover {
+  color: #006fff;
+}
+
+
+.container {
+  display: flex;
+  background-color: rgb(243, 243, 252);
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.sidebar {
+  width: 25%;
+  background-color: #f0f0f0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  margin-right: 110px;
+  border: 1px #8d8c8d;
+  background-image: url("Background2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.sidebar ul {
+  list-style-type: disc;
+  color: #000a83;
+}
+
+.list li {
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.27);
+  border-radius: 20px;
+}
+
+.list a {
+  padding: 15px;
+  font-size: 35px;
+  font-family: 'Dancing Script', cursive;
+  text-decoration: none;
+  color: #000a83;
+  display: block;
+}
+
+.list a:hover {
+  color: dodgerblue;
+}
+
+.list li {
+  text-align: left;
+}
+
+
+
+.content {
+  width: 75%;
+  padding: 20px;
+}
+
+
+
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-item {
+  width: 25%;
+  padding: 10px;
+}
+
+.image-item img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.image-item img:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 45px;
+}
+
+
+footer {
+  background-image: url('Background3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-column h2 {
+  font-family: 'Dancing Script', cursive;
+  text-decoration: none;
+  margin-top: 0;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-column li {
+  margin-bottom: 1px;
+  padding: 1px;
+}
+
+.footer-column a {
+  padding: 15px;
+  font-size: 25px;
+  font-family: 'Dancing Script', cursive;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-column a:hover {
+  color: #e1edff;
+}
+
